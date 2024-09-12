@@ -7,3 +7,5 @@ python-dotenv==1.0.0
 SQLAlchemy==1.4.47
 scikit-learn
 pmdarima
+pillow>=10.2.0 # not directly required, pinned by Snyk to avoid a vulnerability
+pyarrow>=14.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
